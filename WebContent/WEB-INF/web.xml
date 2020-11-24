@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" version="4.0">
+  <display-name>JungMyungHoonProj2</display-name>
+  
+  <servlet>
+		<servlet-name>Login_SERVLET</servlet-name>
+		<servlet-class>controller.servlet.LoginController</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Login_SERVLET</servlet-name>
+		<url-pattern>/Project/Login.kosmo</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>Join_SERVLET</servlet-name>
+		<servlet-class>controller.servlet.JoinController</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Join_SERVLET</servlet-name>
+		<url-pattern>/Project/Join.kosmo</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>Logout_SERVLET</servlet-name>
+		<servlet-class>controller.servlet.LogoutController</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Logout_SERVLET</servlet-name>
+		<url-pattern>/Project/Logout.kosmo</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>List_SERVLET</servlet-name>
+		<servlet-class>controller.servlet.ListController</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>List_SERVLET</servlet-name>
+		<url-pattern>/Project/List.kosmo</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>Write_SERVLET</servlet-name>
+		<servlet-class>controller.servlet.WriteController</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Write_SERVLET</servlet-name>
+		<url-pattern>/Project/Write.kosmo</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>View_SERVLET</servlet-name>
+		<servlet-class>controller.servlet.ViewController</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>View_SERVLET</servlet-name>
+		<url-pattern>/Project/View.kosmo</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>Update_SERVLET</servlet-name>
+		<servlet-class>controller.servlet.UpdateController</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Update_SERVLET</servlet-name>
+		<url-pattern>/Project/Update.kosmo</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>Delete_SERVLET</servlet-name>
+		<servlet-class>controller.servlet.DeleteController</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Delete_SERVLET</servlet-name>
+		<url-pattern>/Project/Delete.kosmo</url-pattern>
+	</servlet-mapping>
+	
+  <welcome-file-list>
+  	<welcome-file>Home.jsp</welcome-file>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>
